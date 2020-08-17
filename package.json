@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "geo-tz": "^6.0.0"
+  }
+}
