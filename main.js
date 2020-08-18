@@ -39,7 +39,7 @@ data.forEach(d => {
 	let utc_tz = {
 		text: d.value,
 		offset: d.offset,
-		utc: d.utch
+		utc: d.utc.slice()
 	}
 	arr.push(utc_tz);
 	console.log(d);
