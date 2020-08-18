@@ -42,7 +42,6 @@ data.forEach(d => {
 		utc: d.utc.slice()
 	}
 	arr.push(utc_tz);
-	console.log(d);
 });
 let data_final = JSON.stringify(arr);
 console.log(data_final);
