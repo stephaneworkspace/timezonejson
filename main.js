@@ -37,7 +37,7 @@ const raw = require("./timezones.json");
 let data = JSON.parse(JSON.stringify(raw));
 data.forEach(d => {
 	let utc_tz = {
-		text: d.value,
+		text: d.text,
 		offset: d.offset,
 		utc: d.utc.slice()
 	}
